@@ -2,7 +2,7 @@
 um sistema que serve para gerenciar projetos, editar, criar serviços, excluir e etc.
 
 # Como rodar o codigo?
-isso é muito simples, basta você ir ao terminar e digitar
+isso é muito simples, basta você ir ao terminal e digitar
 
 ### `git clone https://github.com/RafaelGLacerda/costs_project.git`
 ### `npm i` (instala as dependências do projeto)
