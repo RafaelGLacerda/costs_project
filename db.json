@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "id": "0c19",
+      "name": "PC NOVO DO GUTS",
+      "budget": "8000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 7600,
+      "services": [
+        {
+          "name": "processador",
+          "cost": "1800",
+          "description": "i7 12gen",
+          "id": "6370f218-58b7-483a-ba6e-55c2acbd912d"
+        },
+        {
+          "name": "placa de video",
+          "cost": "2500",
+          "description": "rtx 4060 ti",
+          "id": "22530e6a-1433-465c-8ec8-3126f57c1acb"
+        },
+        {
+          "name": "placa mãe",
+          "cost": "900",
+          "description": "uma que tenha 4 slots RAM e 2 slots SSD M2",
+          "id": "d5e00432-8930-4fc3-bc46-c62d64a5df8c"
+        },
+        {
+          "name": "RAM",
+          "cost": "800",
+          "description": "4 pentes de 16GB RAM",
+          "id": "4f023a7c-0499-499f-9163-45968d340a9a"
+        },
+        {
+          "name": "water cooler",
+          "cost": "300",
+          "description": "water cooler para o processador",
+          "id": "09c0f463-6f38-4f8c-ac8c-ff5952e8849b"
+        },
+        {
+          "name": "SSD M2",
+          "cost": "400",
+          "description": "SSD M2 padrão de 1TB",
+          "id": "2ac8e259-2f91-486e-ac3a-1dc4f290aad4"
+        },
+        {
+          "name": "fonte",
+          "cost": "500",
+          "description": "fonte de 750W ou mais",
+          "id": "2e004903-dcb1-40fd-90a9-a74457701ec4"
+        },
+        {
+          "name": "gabinete + fans",
+          "cost": "400",
+          "description": "gabinete de 300 reais e 100 reais de fan",
+          "id": "a19c63a3-5918-4eee-9477-4d6056d48d4d"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
