@@ -5,8 +5,9 @@ um sistema que serve para gerenciar projetos, editar, criar serviços, excluir e
 isso é muito simples, basta você ir ao terminal e digitar
 
 ### `git clone https://github.com/RafaelGLacerda/costs_project.git`
-### `npm i` (instala as dependências do projeto)
 ### `cd costs_project` (entrar na pasta do aplicativo)
+### `npm i` (instala as dependências do projeto)
+
 #
 em seguida é só startar com os comandos em duas janelas de prompt com a função do VSCODE de Split Terminal, basta abrir o terminal e Ctrl+Shift+5 e pronto, 2 terminais
 
