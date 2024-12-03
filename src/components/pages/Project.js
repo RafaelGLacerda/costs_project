@@ -2,7 +2,6 @@ import styles from './Project.module.css'
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { parse, v4 as uuidv4 } from 'uuid'
-import { parse } from 'alguma-biblioteca';
 
 
 import Loading from '../layout/Loading'
