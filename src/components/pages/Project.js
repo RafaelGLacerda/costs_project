@@ -1,24 +1,23 @@
-import styles from './Project.module.css'
-import { useParams } from 'react-router-dom'
-import { useState, useEffect } from 'react'
-import { parse, v4 as uuidv4 } from 'uuid'
+import styles from './Project.module.css';
+import { useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { v4 as uuidv4 } from 'uuid'; // Removido o `parse`
 
-
-import Loading from '../layout/Loading'
-import Container from '../layout/Container'
-import ProjectForm from '../project/ProjectForm'
-import Message from '../layout/Message'
-import ServiceForm from '../service/ServicesForm'
-import ServiceCard from '../service/ServiceCard'
+import Loading from '../layout/Loading';
+import Container from '../layout/Container';
+import ProjectForm from '../project/ProjectForm';
+import Message from '../layout/Message';
+import ServiceForm from '../service/ServicesForm';
+import ServiceCard from '../service/ServiceCard';
 
 function Project() {
-    const { id } = useParams()
-    const [project, setProject] = useState([])
-    const [showProjectForm, setShowProjectForm] = useState(false)
-    const [message, setMessage] = useState()
-    const [Type, setType] = useState()
-    const [showServiceForm, setShowServiceForm] = useState(false)
-    const [services, setServices] = useState([])
+    const { id } = useParams();
+    const [project, setProject] = useState([]);
+    const [showProjectForm, setShowProjectForm] = useState(false);
+    const [message, setMessage] = useState();
+    const [Type, setType] = useState();
+    const [showServiceForm, setShowServiceForm] = useState(false);
+    const [services, setServices] = useState([]);
 
     useEffect(() => {
         fetch(`http://localhost:5000/projects/${id}`, {
@@ -26,13 +25,14 @@ function Project() {
             headers: {
                 'Content-Type': 'application/json',
             },
-        }).then((resp) => resp.json())
+        })
+            .then((resp) => resp.json())
             .then((data) => {
-                setProject(data)
-                setServices(data.services)
+                setProject(data);
+                setServices(data.services);
             })
-            .catch((err) => console.log(err))
-    }, [id, services]) // Agora o useEffect escuta o array de services
+            .catch((err) => console.log(err));
+    }, [id]); // Dependências ajustadas
 
     function editPost(project) {
         setMessage('')
