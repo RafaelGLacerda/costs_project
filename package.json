@@ -16,14 +16,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run backend\" \"react-scripts start\"",
-    "backend": "json-server --watch db.json --port 5000",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start",  // Comando para iniciar o React no ambiente de produção
+    "build": "react-scripts build",  // Comando para construir o projeto React
+    "test": "react-scripts test",    // Comando para rodar os testes no React
+    "eject": "react-scripts eject",  // Comando para ejetar a configuração do React
+    "backend": "json-server --watch db.json --port 5000",  // Comando para iniciar o JSON Server
+    "dev": "concurrently \"npm run backend\" \"npm start\""  // Comando para rodar localmente ambos os serviços
   },
   "devDependencies": {
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1"  // Pacote necessário para rodar ambos os serviços ao mesmo tempo localmente
   },
   "eslintConfig": {
     "extends": [
