@@ -1,6 +1,8 @@
 # Esse é o projeto COSTS
 um sistema que serve para gerenciar projetos, editar, criar serviços, excluir e etc.
 
+#Link do Site - https://costsservice.netlify.app/
+
 # Como rodar o codigo?
 isso é muito simples, basta você ir ao terminal e digitar
 
