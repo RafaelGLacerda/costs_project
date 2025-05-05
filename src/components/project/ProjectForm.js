@@ -15,7 +15,7 @@ function ProjectForm({ btnText, handleSubmit, projectData }) {
         fetch("https://costs-api-i62v.onrender.com/categories", {
             method: "GET",
             headers: {
-                'Contet-Type': 'application/json'
+                'Content-Type': 'application/json'
             }
         }).then((resp) => resp.json())
             .then((data) => {
