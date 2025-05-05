@@ -20,7 +20,7 @@ function Project() {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/projects/${id}`, {
+        fetch(`https://costs-api-i62v.onrender.com/projects/${id}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

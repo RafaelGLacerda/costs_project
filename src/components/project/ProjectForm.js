@@ -12,7 +12,7 @@ function ProjectForm({ btnText, handleSubmit, projectData }) {
 
     useEffect(() => {
 
-        fetch("http://localhost:5000/categories", {
+        fetch("https://costs-api-i62v.onrender.com/categories", {
             method: "GET",
             headers: {
                 'Contet-Type': 'application/json'

@@ -10,7 +10,6 @@ import Container from './components/layout/Container'
 import NavBar from './components/layout/NavBar'
 import Footer from './components/layout/Footer'
 
-fetch(`${process.env.REACT_APP_API_URL}/projects`)
 
 function App() {
   return (
