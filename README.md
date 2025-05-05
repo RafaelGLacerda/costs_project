@@ -1,7 +1,11 @@
 # Esse é o projeto COSTS
 um sistema que serve para gerenciar projetos, editar, criar serviços, excluir e etc.
 
+### Para rodar precisa abrir a API e depois o site
+
+#Link do siteAPI - https://costs-api-i62v.onrender.com/
 #Link do Site - https://costs-project.onrender.com
+
 
 # Como rodar o codigo?
 isso é muito simples, basta você ir ao terminal e digitar
