@@ -1,21 +1,28 @@
-# Esse é o projeto COSTS
-um sistema que serve para gerenciar projetos, editar, criar serviços, excluir e etc.
+## 💼 Projeto COSTS
 
-### Para rodar precisa abrir a API e depois o site
+O **COSTS** é um sistema para **gerenciamento de projetos**, que permite criar, editar e excluir projetos e serviços de forma prática.
 
-#Link do siteAPI - https://costs-api-i62v.onrender.com/
-#Link do Site - https://costs-project.onrender.com
+---
 
+### 🌐 Acesse online
 
-# Como rodar o codigo?
-isso é muito simples, basta você ir ao terminal e digitar
+- 🔗 **API**: [https://costs-api-i62v.onrender.com/](https://costs-api-i62v.onrender.com/)
+- 🔗 **Site**: [https://costs-project.onrender.com](https://costs-project.onrender.com)
 
-### `git clone https://github.com/RafaelGLacerda/costs_project.git`
-### `cd costs_project` (entrar na pasta do aplicativo)
-### `npm i` (instala as dependências do projeto)
+---
 
-#
-em seguida é só startar com os comandos em duas janelas de prompt com a função do VSCODE de Split Terminal, basta abrir o terminal e Ctrl+Shift+5 e pronto, 2 terminais
+## 🚀 Como rodar o projeto localmente
 
-### `npm start` (roda codigo)
-### `npm run backend` (roda o banco de dados)
+```bash
+# Clone o repositório
+git clone https://github.com/RafaelGLacerda/costs_project.git
+
+# Acesse a pasta do projeto
+cd costs_project
+
+# Instale as dependências
+npm install
+# Em um terminal, para iniciar o frontend
+npm start
+# No outro terminal, para iniciar o backend (API / banco de dados)
+npm run backend
