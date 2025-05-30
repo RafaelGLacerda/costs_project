@@ -6,8 +6,7 @@ O **COSTS** é um sistema para **gerenciamento de projetos**, que permite criar,
 
 ### 🌐 Acesse online
 
-- 🔗 **API**: [https://costs-api-i62v.onrender.com/](https://costs-api-i62v.onrender.com/)
-- 🔗 **Site**: [https://costs-project.onrender.com](https://costs-project.onrender.com)
+Projeto Desativado.
 
 ---
 
